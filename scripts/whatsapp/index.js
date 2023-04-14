@@ -24,6 +24,6 @@ const email = document.querySelector("#promocaoEmail")
 
 function promocao(){
     console.log('funciona')
-    alert('funcionann')
+    alert('Receber Promoções')
     window.location.href = `https://api.whatsapp.com/send?phone=5581999701949&text=Nome:%20${nome.value}%0ATelefone:%20${telefone.value}%0AEmail:%20${email.value}`
 }
